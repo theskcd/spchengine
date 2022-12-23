@@ -1,6 +1,0 @@
-openai
-google-cloud-firestore
-pinecone-client
-firebase-admin
-youtube-search-python
-rake-nltk

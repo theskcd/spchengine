@@ -1,4 +1,0 @@
-- We will also use the faiss for taking the embeddings and doing cosine similary and other operations
-- next we take the sample text and store it in firestore (for quick retrival) and then get it from 
-- Use yt-dl for downloading the audio file from the youtube video for now (we need to figure out how to hook onto this normally)
-- command used: yt-dlp -f 'ba' -x --audio-format mp3 https://www.youtube.com/watch?v=dQw4w9WgXcQ  convert this webm -> wav

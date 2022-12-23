@@ -1,5 +1,0 @@
-To use ffmpeg, we have certain cli calls which we can use:
-- convert the mp3 to wav using
-: ffmpeg -i song.mp3 song.wav
-- for splitting the wav file to pieces
-: ffmpeg -i lex_john_carmack.wav -f segment -segment_time 3600 -c copy out%03d.wav
