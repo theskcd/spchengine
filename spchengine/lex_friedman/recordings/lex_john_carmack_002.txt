@@ -1,0 +1,215 @@
+John Carmack 0:00:00
+
+I've never been at a point where I'm like, I just don't care about this. I don't want to do this anymore. But I've always had the flexibility to work on lots of interesting things. I can always just turn my gaze to something else and have a great time working on that. And so much of that, so much of the ability to actually work hard is the ability to have multiple things to choose from and to use your time on the most appropriate thing. There are time periods where it's the best time for me to read a new research paper that I need to really be thinking hard about it. Then there's a time that maybe I should just scan and organize my old notes because I'm just not on top of things. Then there's the time that, all right, let's go bang out a few hundred lines of code for 
+
+Lex 0:00:44
+
+something. 
+
+John Carmack 0:00:45
+
+So switching between them has been real valuable. 
+
+Lex 0:00:49
+
+So you always have joy in your heart for all the things you're doing. And that is a kind of work-life balance as a first sort of step. 
+
+John Carmack 0:00:57
+
+Yeah, I do. So you're always happy. I do. Well, happy, you know. Yeah, I mean, that's like, a lot of people would say that often I look like kind of a grim person, you know, with just sitting there with a neutral expression or even like knitted brows and a frown on my face as I'm staring at something. That's what happiness looks like for you. Yeah. It's kind of true where that's like, okay, I'm pushing through this. I'm making progress here. I know that doesn't work for everyone. I know it doesn't work for most people. But what I am always trying to do in those cases is I don't want to let somebody that might be a person like that be told by someone else that, no, don't even try that out as an option where I, you know, work-life balance versus kind of your life's work where there's a small subset of the people that can be very happy being obsessive about things. And, you know, obsession can often get things done that just practical, prudent, pedestrian work won't or at least won't for a very long time. 
+
+Lex 0:01:59
+
+There's legends of your nutritional intake in the early days. What can you say about sort of as a, you know, being a programmer is a kind of athlete. So what was the nutrition that fueled it? 
+
+John Carmack 0:02:14
+
+I have never been that great on really paying attention to it where I'm good enough that I don't eat a lot. You know, I've never been like a big heavy guy, but it was interesting where one of the things that I can remember being an unhappy teenager, not having enough money. And like, one of the things that bothered me about not having enough money is I couldn't buy pizza whenever I wanted to. So I got rich and then I bought a whole lot of pizza. 
+
+Lex 0:02:39
+
+It was really- So that was the defining, like, that's what being rich felt like. 
+
+John Carmack 0:02:42
+
+There was a lot of little things, like I could buy all the pizza and comic books and video games that I wanted to. And it really didn't take that much. But the pizza was one of those things. And it's absolutely true that for a long time it did software. I had a pizza delivered every single day. You know, the delivery guy knew me by name. And I didn't find out until years later that apparently I was such a good customer that they just never raised the price on me. I was using this six-year-old price for the pizzas that they were still kind of sending my way every day. 
+
+Lex 0:03:14
+
+So you were doing eating once a day? 
+
+John Carmack 0:03:18
+
+Or were you- It would be spread out. You know, you have a few pieces of pizza, you have some more later on, and I'd maybe have something at home. It was one of the nice things that Facebook meta is they do, they feed you quite well. You get a different, I guess now it's DoorDash sorts of things delivered, but they take care of making sure that everybody does get well fed. And I probably had better food those six years that I was working in the meta office there than I used to before. But it's worked out okay for me. My health has always been good. I get a pretty good amount of exercise and I don't eat to excess and I avoid a lot of other kind of not so good for you things. So I'm still doing quite well at my age. 
+
+Lex 0:03:58
+
+Did you have a kind of, I don't know, spiritual experience with food or coffee or any of that kind of stuff? I mean, the programming experience with music or like I listen to Brown Noise on a program or like creating an environment and the things you take into your body, just everything you construct can become a kind of ritual that empowers the whole process of the program. Did you have that relationship with pizza or- 
+
+John Carmack 0:04:27
+
+It would really be with Diet Coke. I mean, there still is that sense of drop the can down, crack open the can of Diet Coke. All right, now I mean business. We're getting to work here. Still, to this day, is Diet Coke still part of it? Yeah, probably eight or nine a day. 
+
+Lex 0:04:42
+
+Nice. Okay. What about your setup? How many screens? What kind of keyboard? Is there something interesting? What kind of IDE, Emacs, Vim or something modern? Linux, what operating system, laptop or any interesting thing that brings you joy? 
+
+John Carmack 0:05:00
+
+So I kind of migrated cultures where early on through all of game dev, there was sort of one culture there which was really quite distinct from the more the Silicon Valley venture culture for things. They're different groups and they have pretty different mores in the way they think about things. I still do think a lot of the big companies can learn things from the hardcore game development side of things where it still boggles my mind how hostile to debuggers and IDEs that so much of the kind of big money, get billions of dollars, Silicon Valley venture backed funds are. 
+
+Lex 0:05:37
+
+Oh, that's interesting. Sorry. So you're saying like big companies like Google and Meta are hostile to... 
+
+John Carmack 0:05:43
+
+They are not big on debuggers and IDEs. So much of it is like Emacs, Vim for things. And we just assume that debuggers don't work most of the time for the systems. And a lot of this comes from a sort of Linux bias on a lot of things where I did come up through the personal computers and then the DOS and then I am Windows and it was Borland tools and then Visual Studio and- 
+
+Lex 0:06:09
+
+Do you appreciate the buggers? 
+
+John Carmack 0:06:11
+
+Very much so. I mean, a debugger is how you get a view into a system that's too complicated to understand. I mean, anybody that thinks just read the code and think about it, that's an insane statement in the... You can't even read all the code on a big system. You have to do experiments on the system and doing that by adding log statements, recompiling and rerunning it is an incredibly inefficient way of doing it. I mean, yes, you can always get things done even if you're working with stone knives and bearskins. That is the mark of a good programmer is that given any tools, you will figure out a way to get it done. But it's amazing what you can do with sometimes much, much better tools where instead of just going through this iterative compile run debug cycle, you have the old LISP direction of like you've got a REPL and you're working interactively and doing amazing things there. But in many cases, a debugger as a very powerful user interface that can stop, examine all the different things in your program, set all of these different breakpoints. And of course, you can do that with GDB or whatever there. But this is one of the user interface fundamental principles where when something is complicated to do, you won't use it very often. There's people that will break out GDB when they're at their wits end and they just have beat their head against a problem for so long. But for somebody that kind of grew up in game dev, it's like they were running into the debugger anyways before they even knew there was a problem. And you would just stop and see what was happening. And sometimes you could fix things even before you did one compile cycle. You could be in the debugger and you would say, well, I'm just going to change this right here and yep, that did the job and fix it and go on. 
+
+Lex 0:07:50
+
+And for people that don't know, GDB is a sort of popular, I guess, Linux debugger primarily for C++? 
+
+John Carmack 0:07:58
+
+They handle most of the languages, but it's based on C as the original kind of Unix heritage. 
+
+Lex 0:08:03
+
+And it's kind of like command line. It's not user friendly. It doesn't allow for clean visualizations. And you're exactly right. So you're using this kind of debugger usually when you're at wits end and there's a problem that you can't figure out why by just looking at the codes, you have to find it. That's how I guess normal programmers use it. But you're saying there should be tools that kind of visualize and help you as part of the programming process, just the normal programming process to understand the code deeper. 
+
+John Carmack 0:08:33
+
+When I'm working on my C++ code, I'm always running it from the debugger. Just I type in the code, I run it. Many times the first thing I do after writing code is set a breakpoint and step through the function. Now, other people will say, it's like, oh, I do that in my head. Well, your head is a faulty interpreter of all those things there. And I've written brand new code. I want to step in there and I'm going to single step through that, examine lots of things and see if it's actually doing what I expected it to. 
+
+Lex 0:09:01
+
+It is a kind of companion, the debugger. Like you're now coding in an interactive way with another being. And a debugger is a kind of dumb being, but it's a reliable being. That is an interesting question of what role does AI play in that kind of, with codecs and these kind of ability to generate code. You might start having tools that understand the code in interesting, deep ways that can work with you. 
+
+John Carmack 0:09:30
+
+I mean, there's a whole spectrum there from static code analyzers and various kind of dynamic tools there up to AI that can conceivably grok these programs that literally no human can understand. They're too big, too intertwined, and too interconnected. But it's not beyond the possibility of understanding. It's just beyond what we can hold in our heads as kind of mutable state while we're working on things. And I'm a big proponent, again, of things like static analyzers and some of that stuff where you'll find some people that don't like being scolded by a program for how they've written something where it's like, oh, I know better. And sometimes you do, but that was something that I was, it was very, very valuable for me when, and not too many people get an opportunity like this to have. This is almost one of those spiritual experiences as a programmer, an awakening to, the id software code bases were a couple million lines of code. And at one point I had used a few of the different analysis tools, but I made a point to really go through and scrub the code base using every tool that I could find. And it was eye opening where we had a reputation for having some of the most robust, strongest code, where there were some great things that I remember hearing from Microsoft telling us about crashes on Xbox. And we had this tiny number that they said were probably literally hardware errors. And then you have other significant titles that just have millions of faults that are getting recorded all the time. So I was proud of our code on a lot of levels. But when I took this code analysis squeegee through everything, it was shocking how many errors there were in there. Things that you can say, okay, this was a copy paste, not changing something right here. Lots of things that were, the most common problem was something in a printf format string that was the wrong data type that could cause crashes there. And you really want the warnings for things like that. Then the next most common was missing a check for null that could actually happen, that could blow things up. And those are obviously like top C, C++ things. Everybody has those problems. But the long tail of all of the different little things that could go wrong there. And we had good programmers and my own code, stuff that I'd be looking at. It's like, oh, I wrote that code. That's definitely wrong. We've been using this for a year. And it's this submarine, this mine sitting there waiting for us to step on. And it was humbling. It was, and I reached the conclusion that anything that can be syntactically allowed in your language, if it's going to show up eventually in a large enough code base, you're not going to, good intentions aren't going to keep it from happening. You need automated tools and guardrails for things. And those start with things like static types or even type hints in the more dynamic languages. But the people that rebel against that, that basically say, that slows me down doing that, there's something to that. I get that. I've written, I've cobbled things together in a notebook. I'm like, wow, this is great that it just happened. But yeah, that's kind of sketchy, but it's working fine. I don't care. It does come back to that value analysis where sometimes it's right to not care. But when you do care, if it's going to be something that's going to live for years and it's going to have other people working on it, and it's going to be deployed to millions of people, then you want to use all of these tools. You want to be told. It's like, no, you screwed up here, here, and here. And that does require kind of an ego check about things where you have to be open to the fact that everything that you're doing is just littered with flaws. It's not that, oh, you occasionally have a bad day. It's just whatever stream of code you output, there is going to be a statistical regularity of things that you just make mistakes on. And I do think there's the whole argument about test-driven design and unit testing versus kind of analysis and different things. I am more in favor of the analysis and the stuff that just like you can't run your program until you fix this rather than you can run it and hopefully a unit test will catch it in some way. Yeah. 
+
+Lex 0:13:37
+
+In my private code, I have asserts everywhere. Just there's something pleasant to me, pleasurable to me about sort of the dictatorial rule of like this should be true at this point. And too many times I've made mistakes that shouldn't have been made. And I would assume I wouldn't be the kind of person that would make that mistake, but I keep making that mistake. Therefore an assert really catches me, really helps all the time. So my code, I would say like 10 to 20% of my private code just for personal use is probably 
+
+John Carmack 0:14:14
+
+asserts. And they're active comments. That's one of those things that in theory they don't make any difference to the program. And if it was all operating the way you expected it would be, then they will never fire. But even if you have it right and you wrote the code right initially, then circumstances change. The world outside your program changes. And in fact, that's one of the things where I'm kind of fond in a lot of cases of static array size declarations where I went through this period where it's like, okay, now we have general collection classes. We should just make everything variable. Because I had this history of in the early days you get Doom, which had some fixed limits on it. Then everybody started making crazier and crazier things and they kept bumping up the different limits, this many lines, this many sectors. And it seemed like a good idea. Well, we should just make this completely generic. It can go kind of go up to whatever. And there's cases where that's the right thing to do. But it also, the other aspect of the world changing around you is it's good to be informed when the world has changed more than you thought it would. And if you've got a continuously growing collection, you're never going to find out. You might have this quadratic slowdown on something where you thought, oh, I'm only ever going to have a handful of these. But something changes and there's a new design style and all of a sudden you've got 10,000 
+
+Lex 0:15:32
+
+of them. 
+
+John Carmack 0:15:33
+
+So I kind of like in many cases picking a number, some nice round power of two number and setting it up in there and having an assert saying it's like, hey, you hit this limit. You should probably think are the choices that you've made around all of this still relevant if somebody is using 10 times more than you thought they would. 
+
+Lex 0:15:53
+
+Yeah. This code was originally written with this kind of worldview, with this kind of set of constraints. You were thinking of the world in this way. If something breaks, that means you got to rethink the initial stuff. And it's nice for it to do that. Is there any stuff like a keyboard or monitors? 
+
+John Carmack 0:16:13
+
+I'm fairly pedestrian on a lot of that where I did move to triple monitors like in the last several years ago. I had been dual monitor for a very long time and it was one of those things where probably years later than I should have, I'm just like, well, the video cards now generally have three output ports. I should just put the third monitor up there. That's been a pure win. I've been very happy with that. But no, I don't have fancy keyboard or mouse or anything really. 
+
+Lex 0:16:41
+
+The key thing is an IDE that has helpful debuggers, has helpful tools. So it's not the Emacs Vim route and then Diacoke. Yeah. 
+
+John Carmack 0:16:51
+
+So I did spend, I spent one of my week long retreats where I'm like, okay, I'm going to make myself use, it was actually classic VI, which I know people will say you should never have done that. You should have just used Vim directly. But I gave it the good try. It's like, okay, I'm being in kind of classic Unix developer mode here. And I worked for a week on it. I used Anki to like teach myself the different little key combinations for things like that. And in the end it was just like, all right, this was kind of like my civil war reenactment phase. You know, it's like, I'm going out there doing it like they used to in the old days. And it was kind of fun in that regard. So many people right now, they're screaming as they're listening to this. So again, the out is that this was not modern Vim, but still, yes, I was very happy to get back to my visual studio at the end. 
+
+Lex 0:17:39
+
+Yeah, I'm actually, I struggle with this a lot because so I use a Kinesis keyboard and I use Emacs primarily. And I feel like I can, exactly as you said, I can understand the code. I can navigate the code. There's a lot of stuff you could build within Emacs with using Lisp. You can customize a lot of things for yourself to help you introspect the code, like to help you understand the code and visualize different aspects of the code. You can even run debuggers, but it's work and the world moves past you and the better and better ideas are constantly being built. And that puts a kind of, I need to take the same kind of retreat as you're talking about, but now I'm still fighting the civil war. I need to kind of move into the 21st century. 
+
+John Carmack 0:18:26
+
+And it does seem like the world is, or a large chunk of the world is moving towards visual studio code, which is kind of interesting to me. And it's the JavaScript ecosystem on the one hand, and IDs are one of those things that you want to be infinitely fast. You want them to just kind of immediately respond. And like, I mean, heck, I've got, there's someone I know, an old school game dev guy that still uses visual studio six and on a modern computer, everything is just absolutely instant on something like that because it was made to work on a computer that's 10,000 or 100,000 times slower, so just everything happens immediately. And all the modern systems just feel, you know, they feel so crufty when it's like, oh, why is this refreshing the screen and moving around and updating over here and something blinks down there and you should update this. And there's, you know, there are things that we've lost with that incredible flexibility, but lots of people get tons of value from it. And I am super happy that that seems to be winning over even a lot of the old Vim and Emacs people that they're kind of like, hey, visual studio codes, maybe, you know, not so bad. I am, that may be the final peacekeeping solution where everybody is reasonably happy with something like that. 
+
+Lex 0:19:40
+
+So, can you explain what a.plan file is and what role that played in your life? Does it still continue to play a role? 
+
+John Carmack 0:19:48
+
+Back in the early, early days of id Software, one of our big things that was unique with what we did is I had adopted Nextstations or kind of Nextstep systems from Steve Jobs's out in the woods away from Apple company. And they were basically, it was kind of interesting because I did not really have a background with the Unix system. So many of the people, they get immersed in that in college and, you know, that sets a lot of cultural expectations for them. And I didn't have any of that, but I knew that my background was I was a huge Apple 2 fan boy. I was always a little suspicious of the Mac. I was not really what kind of I wanted to go with. But when Steve Jobs left Apple and started Next, this computer did just seem like one of those amazing things from the future where it had all of this cool stuff in it. And we were still back in those days working on DOS, everything blew up. You had reset buttons because your computer would just freeze. If you're doing development work, literally dozens of times a day, your computer was just rebooting constantly. And so this idea of, yes, any of the Unix workstations would have given a stable development platform where you don't crash and reboot all the time. But Next also had this really amazing graphical interface, and it was great for building tools. And it used Objective-C as the kind of an interesting- 
+
+Lex 0:21:14
+
+Oh, wow. 
+
+John Carmack 0:21:15
+
+Yeah, it did it for things like that. 
+
+Lex 0:21:16
+
+So Next was Unix-based. It said Objective-C. So it has a lot of the elements- 
+
+John Carmack 0:21:20
+
+That became Mac. I mean, the kind of reverse acquisition of Apple by Next where that took over and became what the modern Mac system is. 
+
+Lex 0:21:28
+
+And defined some of the developer, like the tools and the whole community. 
+
+John Carmack 0:21:34
+
+Yeah, you've still got, if you're programming on Apple stuff now, there's still all these NS somethings, which was originally Next Step objects of different kinds of things. But one of the aspects of those Unix systems was they had this notion of a dot plan file where, you know, a dot file is an invisible file, usually in your home directory or something. And there was a trivial server running on most Unix systems at the time that when somebody ran a trivial little command called finger, you could do finger and then somebody's address, it could be anywhere on the internet if you were connected correctly. Then all that server would do was read the dot plan file in that user's home directory and then just spit it out to you. And originally the idea was that could be whether you're on vacation, what your current project was. It's supposed to be like the plan of what you're doing. And people would use it for various purposes. But all it did was dump that file over to the terminal of whoever issued the finger 
+
+Lex 0:22:35
+
+command. 
+
+John Carmack 0:22:36
+
+And at one point, I started just keeping a list of what I was doing in there, which would be what I was working on in the day. And I would have this little syntax I kind of got to myself about, here's something that I'm working on. I put a star when I finish it. I could have a few other little bits of punctuation. And at the time, it started off as being just like my to-do list. And it would be these trivial, obscure little things like I fixed something with collision detection code, made imp fireball do something different, and just little one-liners that people that were following the games could kind of decipher. But I did wind up starting to write much more in-depth things. I would have little notes of thoughts and insights. And then I would eventually start having little essays I would sometimes dump into the.plan files, interspersed with the work logs of things that I was doing. So in some ways, it was like a super early proto-blog, where I was just kind of dumping out what I was working on. But it was interesting enough that there were a lot of people that were interested in this. So most of the people didn't have Unix workstations. So there were the websites back in the day that would follow the Doom and Quake development that would basically make a little service that would go grab all the changes. And then people could just get it with a web browser. And there was a period where all of the little kind of Dallas gaming diaspora of people that were at all in that orbit, there were a couple dozen.plan files going on, which was – and this was some years before blogging really became kind of a thing. And it was kind of a premonition of sort of the way things would go. And there was – it's all been collected. It's available online in different places. And it's kind of fun to go back and look through what I was thinking, what I was doing in the different areas. 
+
+Lex 0:24:25
+
+Have you had a chance to look back? Is there some interesting, very low-level specific to-do items, maybe things you've never completed, all that kind of stuff, and high-level philosophical essay type of stuff 
+
+John Carmack 0:24:37
+
+that stands out? Yeah, there's some good stuff on both where a lot of it was low-level nitpicky details about game dev. And I've learned enough things where there's no project that I worked on that I couldn't go back and do a better job on now. I mean, you just – you learn things. Hopefully, if you're doing it right, you learn things as you get older and you should be able to do a better job at all of the early things. And there's stuff in Wolfenstein, Doom, Quake that's like, oh, clearly I could go back and do a better job at this, whether it's something in the rendering engine side or how I implemented the monster behaviors or managed resources or anything like that. 
+
+Lex 0:25:15
+
+Do you see the flaws in your thinking now? 
+
+John Carmack 0:25:17
+
+Yeah. It's like looking back? Yeah, I do. I mean, sometimes I'll get the – I'll look at it and say, yeah, I had a pretty clear view of I was doing good work there. And I haven't really hit the point where – there was another programmer, Graham Devine, who was – he had worked at id and Seventh Guest. And he made some comment one time where he said he looked back at some of his old notes and he was like, wow, I was really smart back then. And I don't hit that so much where – I mean, I look at it and I always know that, yeah, there's all the – with aging, you get certain changes in how you're able to work problems. But all of the problems that I've worked, I'm sure that I could do a better job on all of them. 
+
+Lex 0:25:59
+
+Oh, wow. So you can still step right in. If you could travel back in time and talk to that guy, you would teach him a few things. 
+
+John Carmack 0:26:05
+
+Yeah, absolutely. 
+
+Lex 0:26:06
+
+That's awesome. What about the high-level philosophical stuff? Is there some insights that stand out that you remember? 
+
+John Carmack 0:26:14
+
+There's things that I was understanding about development and the industry and so on that were in a more primitive stage where I definitely learned a lot more in the later years about business and organization and team structure. There were – I mean, there were definitely things that I was not the best person or even a very good person about managing, like how a team should operate internally, how people should work together. I was just – I just get out of my way and let me work on the code and do this. And more and more, I've learned how in the larger scheme of things, how sometimes relatively unimportant some of those things are, where it is this user value generation that's the overarching importance for all of that. And I didn't necessarily have my eye on that ball correctly through a lot of my earlier years and there's things that I could have gotten more out of people handling things in different ways. I could have made in some ways more successful products by following things in different ways. There's mistakes that we made that we couldn't really have known how things would have worked out but it was interesting to see in later years companies like Activision showing that, hey, you really can just do the same game, make it better every year. And you can look at that from a negative standpoint and say it's like, oh, that's just being derivative and all that. But if you step back again and say it's like, no, are the people buying it still enjoying it? Are they enjoying it more than what they might have bought otherwise? And you can say, no, that's actually a great value creation engine to do that if you're in a position where you can. Don't be forced into reinventing everything just because you think that you need to. Lots of things about business and team stuff that could be done better but the technical work, the kind of technical visionary type stuff that I laid out, I still feel pretty good about. There are some classic old ones about my defending of OpenGL versus D3D which turned out to be one of the more probably important momentous things there where it was always a rearguard action on Windows where Microsoft was just not going to let that win. But when I look back on it now, that fight to keep OpenGL relevant for a number of years there meant that OpenGL was there when mobile started happening and OpenGL ES was the thing that drove all of the acceleration of the mobile industry. And it's really only in the last few years as Apple's moved to metal and some of the other companies have moved to Vulcan that that's moved away. But really stepping back and looking at it, it's like, yeah, I sold tens of millions of games for different things but billions and billions of devices wound up with an appropriate capable graphics API due in no small part to me thinking that that was really important that we not just give up and use Microsoft's at that time really terrible API. The thing about Microsoft is the APIs don't stay terrible. They were terrible at the start but a few versions on they were actually quite good. And there was a completely fair argument to be made that by the time DX9 was out, it was probably a better programming environment than OpenGL. But it was still a wonderful good thing that we had an open standard that could show up on Linux and Android and iOS and eventually WebGL still to this day. So that was one that would be on my greatest hits list of things that I kind of pushed with. Impact it had on billions of devices. 
+
+Lex 0:29:59
+
+Yes. 
